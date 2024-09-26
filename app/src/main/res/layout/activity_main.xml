@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/CounterView"
+        android:layout_width="match_parent"
+        android:layout_height="210sp"
+        android:layout_marginTop="20sp"
+        android:paddingTop="65sp"
+        android:ellipsize="start"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textSize="50sp"
+        android:textAlignment="center"
+        android:text=""
+        />
+
+    <Button
+        android:id="@+id/Btn_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#009688"
+        android:layout_marginTop="30sp"
+        android:text="Up" />
+
+    <Button
+        android:id="@+id/Btn_down"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#009688"
+        android:text="Down" />
+
+
+</LinearLayout>
